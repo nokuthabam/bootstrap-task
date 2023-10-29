@@ -1,0 +1,73 @@
+.product-card {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    text-align: center; /* Center text and button */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center the Buy button */
+.buy-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center; /* Center text in the footer */
+}
+
+.company-logo {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.center-image {
+    margin: 0 auto; /* Center the image horizontally */
+    display: block;
+}
+.product-image {
+    width: 300px; /* Set a fixed width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+/* Custom select style */
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select {
+    display: none;
+}
+
+.custom-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ddd;
+    border-top: none;
+    display: none;
+}
+
+.custom-option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.custom-select.active + .custom-options {
+    display: block;
+}
